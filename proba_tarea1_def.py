@@ -20,7 +20,6 @@ for i in range(10,61):
     data[i] = 0
     newData[i] = 0
 
-
 #esta funcion va sumando cuantas veces se repite x resultado 
 #(frecuencia absoluta) y lo guarda como valor en el diccionario anterior
 
@@ -46,7 +45,6 @@ plt.show()
 #ahora calculamos la esperanza de cada valor 
 
 esperanza = [] #un arreglo vacio, donde se almacenaran las probabilidades de cada valor
-
 
 for a in range(1, 7):  #se hacen 10 for que le dan valores a los dados para calcular las combinaciones posibles de suma
     d1 = a 
@@ -81,6 +79,3 @@ plt.xlabel('x')
 plt.ylabel('Esperanza') 
 plt.title('Esperanza de cada valor')
 plt.show()
-
-
-
